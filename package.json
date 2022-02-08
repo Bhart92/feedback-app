@@ -34,5 +34,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhart92/feedback-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhart92/feedback-app/issues"
+  },
+  "homepage": "https://github.com/Bhart92/feedback-app#readme"
 }
