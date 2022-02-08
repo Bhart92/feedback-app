@@ -1,3 +1,5 @@
+import Header from "./components/Header";
+
 function App() {
     const title = "blog post";
     const body = "blog body";
@@ -23,11 +25,14 @@ function App() {
     );
 
     return (
+        <>
+        <Header text="Header"/>
         <div className="container">
             <h1>{title}</h1>
             <p>{body}</p>
             {showComments && commentBlock}
         </div>
+        </>
     )
 }
 
